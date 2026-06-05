@@ -1,0 +1,86 @@
+/* General input styles */
+.input-base {
+    width: 100%;
+    height: 36px; /* Default input height */
+    padding: 0.75rem; /* Padding inside input */
+    font-size: 1rem; /* Text size */
+    color: #333; /* Text color */
+    background-color: #fff; /* Background color */
+    border: 1px solid #d1d5db; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.2s ease; /* Smooth transition for focus, hover, etc. */
+    outline: none; /* Remove outline on focus */
+    box-sizing: border-box; /* Prevent padding from affecting width */
+  }
+  .input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    background: #f8fafc;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    margin-top: 8px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background: #ffffff;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+  }
+  
+  .input:hover {
+    border-color: #94a3b8;
+  }
+  
+  
+  /* Focused input styles */
+  .input-base:focus {
+    border-color: #4caf50; /* Green border on focus */
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.2); /* Green glow */
+    background-color: #f9fafb; /* Light background change */
+  }
+  
+  /* Placeholder styles */
+  .input-base::placeholder {
+    color: #a0aec0; /* Placeholder text color */
+    font-weight: 400;
+  }
+  
+  /* Hover effect */
+  .input-base:hover {
+    border-color: #6b7280; /* Darker border color on hover */
+    background-color: #f9fafb; /* Subtle background color change */
+  }
+  
+  /* Disabled input styles */
+  .input-base:disabled {
+    background-color: #e5e7eb; /* Light gray background */
+    color: #6b7280; /* Gray text color */
+    cursor: not-allowed; /* Disable pointer cursor */
+    opacity: 0.6; /* Slightly reduce opacity */
+  }
+  
+  /* Error state */
+  .input-error {
+    border-color: #f87171; /* Red border for error */
+    background-color: #fee2e2; /* Light red background */
+  }
+  
+  .input-error:focus {
+    border-color: #f87171; /* Red border on focus */
+    box-shadow: 0 0 0 2px rgba(248, 113, 113, 0.3); /* Red glow */
+  }
+  
+  /* Success state */
+  .input-success {
+    border-color: #34d399; /* Green border for success */
+    background-color: #d1fae5; /* Light green background */
+  }
+  
+  .input-success:focus {
+    border-color: #34d399; /* Green border on focus */
+    box-shadow: 0 0 0 2px rgba(52, 211, 153, 0.3); /* Green glow */
+  }
+  

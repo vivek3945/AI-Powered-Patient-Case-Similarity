@@ -1,0 +1,116 @@
+/* General Card Styles */
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 2rem auto;
+    padding: 2rem;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+  }
+  
+  /* Card header with modern typography */
+  .card-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #f0f4f8;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin: 0;
+    letter-spacing: -0.5px;
+  }
+  
+.card-base {
+    background-color: #fff;
+    border-radius: 12px; /* Rounded corners */
+    border: 1px solid #e0e0e0; /* Light border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    overflow: hidden;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .card-base:hover {
+    transform: translateY(-4px); /* Slight lift on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+  }
+  
+  /* Card Header */
+  .card-header {
+    padding: 1.5rem;
+    background-color: #f4f7fb; /* Light background color */
+    border-bottom: 1px solid #e0e0e0; /* Subtle bottom border */
+    color: #333; /* Text color */
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .card-header .card-title {
+    font-size: 1.75rem; /* Larger title font size */
+    font-weight: bold; /* Bold title */
+    color: #333; /* Dark color */
+    text-align: left;
+    margin-bottom: 0.5rem; /* Spacing below the title */
+  }
+  
+  .card-header .card-subtitle {
+    font-size: 1rem; /* Subtitle font size */
+    color: #777; /* Lighter text color for subtitle */
+    text-align: left;
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 1.5rem;
+    color: #444; /* Slightly darker text color */
+    background-color: #fff; /* White background */
+    font-size: 1rem; /* Standard font size for content */
+    line-height: 1.5; /* Improved readability */
+  }
+  
+  /* Adding a subtle hover effect for the card content */
+  .card-content:hover {
+    background-color: #f7f7f7; /* Light gray background on hover */
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Utility Class for Text Styling */
+  .card-title {
+    font-size: 5rem; /* Standard size for card titles */
+    font-weight: 600; /* Slightly bold for better prominence */
+    color: #333; /* Dark text color */
+    margin-bottom: 0.5rem; /* Space below the title */
+  }
+  
+  .card-subtitle {
+    font-size: 1.1rem; /* Slightly smaller subtitle */
+    color: #6c757d; /* Muted text color */
+    margin-bottom: 1rem; /* Space below the subtitle */
+  }
+  
+  .card-content p {
+    color: #444; /* Darker text color for content */
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .card-footer {
+    padding: 1rem;
+    text-align: center;
+    background-color: #f4f7fb; /* Background for footer */
+    border-top: 1px solid #e0e0e0;
+    font-size: 0.9rem;
+    color: #777; /* Footer text color */
+  }
+  
